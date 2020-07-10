@@ -1,10 +1,14 @@
 {
   "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "types": ["cypress", "cypress-wait-until"]
+  },
   "files": [
+    "../node_modules/cypress-wait-until/index.d.ts",
     "../node_modules/cypress-xpath/src/index.d.ts"
   ],
   "include": [
-    "../node_modules/cypress",
-    "**/*.ts"
+    "**/*.ts",
+    "**/*.js"
   ]
 }

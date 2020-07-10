@@ -17,6 +17,7 @@
 import './commands';
 
 import "cypress-xpath";
+import 'cypress-wait-until';
 // require('cypress-xpath');
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

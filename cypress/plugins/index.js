@@ -1,4 +1,3 @@
-// require('cypress-xpath');
 const cypressTypeScriptPreprocessor = require('./cy-ts-preprocessor');
 
 module.exports = on => {
