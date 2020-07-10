@@ -1,5 +1,6 @@
-const cypressTypeScriptPreprocessor = require('./cy-ts-preprocessor')
+// require('cypress-xpath');
+const cypressTypeScriptPreprocessor = require('./cy-ts-preprocessor');
 
 module.exports = on => {
-  on('file:preprocessor', cypressTypeScriptPreprocessor)
-}
+  on('file:preprocessor', cypressTypeScriptPreprocessor);
+};
